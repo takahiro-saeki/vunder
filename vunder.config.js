@@ -1,5 +1,8 @@
 module.exports = {
-  root: '/',
   entry: 'src/index.js',
-  output: 'dist/saeki.js'
+  output: 'dist/app.bundle.min.js',
+  minify: false,
+  server: {
+    root: 'src/index.html'
+  }
 }

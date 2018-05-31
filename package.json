@@ -5,12 +5,19 @@
   "devDependencies": {
     "@babel/core": "^7.0.0-beta.49",
     "babel-preset-env": "^1.7.0",
-    "mkdirp": "^0.5.1"
+    "connect": "^3.6.6",
+    "finalhandler": "^1.1.1",
+    "mkdirp": "^0.5.1",
+    "serve-static": "^1.13.2",
+    "uglify-es": "^3.3.9"
   },
   "license": "MIT",
   "main": "index.js",
   "repository": "https://github.com/takahiro-saeki/vunder.git",
   "scripts": {
     "vunder": "node lib/index.js ../vunder.config.js"
+  },
+  "dependencies": {
+    "serve": "^7.1.5"
   }
 }
