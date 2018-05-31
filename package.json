@@ -1,13 +1,16 @@
 {
+  "name": "vunder",
+  "version": "0.0.1",
+  "author": "takahiro-saeki",
   "devDependencies": {
     "@babel/core": "^7.0.0-beta.49",
     "babel-preset-env": "^1.7.0",
     "mkdirp": "^0.5.1"
   },
-  "name": "vunder",
-  "version": "0.0.1",
+  "license": "MIT",
   "main": "index.js",
   "repository": "https://github.com/takahiro-saeki/vunder.git",
-  "author": "takahiro-saeki",
-  "license": "MIT"
+  "scripts": {
+    "vunder": "node lib/index.js ../vunder.config.js"
+  }
 }

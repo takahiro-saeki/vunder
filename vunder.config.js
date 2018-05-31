@@ -1,1 +1,5 @@
-console.log('test')
+module.exports = {
+  root: '/',
+  entry: 'src/index.js',
+  output: 'dist/saeki.js'
+}
