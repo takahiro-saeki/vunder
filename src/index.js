@@ -1,3 +1,3 @@
-import func from './func';
+import { func } from './func';
 
 console.log(func)

@@ -3,7 +3,9 @@ module.exports = {
   output: 'dist/app.bundle.min.js',
   minify: false,
   server: {
-    root: '/index.html'
+    root: './dist',
+    port: 8080,
+    open: false
   },
   template: {
     format: 'ejs',
