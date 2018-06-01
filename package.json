@@ -3,8 +3,8 @@
   "version": "0.0.1",
   "author": "takahiro-saeki",
   "devDependencies": {
-    "@babel/core": "^7.0.0-beta.49",
     "babel-core": "^6.26.3",
+    "babel-plugin-transform-function-bind": "^6.22.0",
     "babel-preset-env": "^1.7.0",
     "babel-traverse": "^6.26.0",
     "babylon": "^6.18.0",
@@ -25,7 +25,10 @@
     "vunder": "node lib/index.js ../vunder.config.js"
   },
   "dependencies": {
+    "@babel/core": "^7.0.0-beta.49",
     "lodash": "^4.17.10",
-    "serve": "^7.1.5"
+    "serve": "^7.1.5",
+    "webpack": "^4.10.2",
+    "webpack-cli": "^2.1.4"
   }
 }
