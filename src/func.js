@@ -1,3 +1,5 @@
-import { name } from './name';
+import name from './name.js';
 
-export const render = `${name} hoge`;
+const render = `${name} hoge`;
+
+export default render;

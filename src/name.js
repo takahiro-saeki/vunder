@@ -1,5 +1,3 @@
-import _ from 'lodash'
+const name = 'vunder';
 
-const box = [ 'sample', 'vunder', 'app' ]
-
-export const name = _.shuffle(box)[0];
+export default name

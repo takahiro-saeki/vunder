@@ -5,7 +5,7 @@ module.exports = {
   server: {
     root: './dist',
     port: 8080,
-    open: false
+    open: true
   },
   template: {
     format: 'ejs',
