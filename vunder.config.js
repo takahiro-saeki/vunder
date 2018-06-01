@@ -3,6 +3,13 @@ module.exports = {
   output: 'dist/app.bundle.min.js',
   minify: false,
   server: {
-    root: 'src/index.html'
+    root: '/index.html'
+  },
+  template: {
+    format: 'ejs',
+    entry: './index.ejs',
+    option: {
+      title: 'this is example'
+    }
   }
 }
