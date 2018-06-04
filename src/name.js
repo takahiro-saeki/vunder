@@ -1,5 +1,5 @@
-import { upperFirst } from 'lodash';
-
 const name = 'vunder!!';
 
-export default upperFirst(name)
+document.getElementById('app')
+
+export default name
