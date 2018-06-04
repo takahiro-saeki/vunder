@@ -1,3 +1,5 @@
-const name = 'vunder';
+import { upperFirst } from 'lodash';
 
-export default name
+const name = 'vunder!!';
+
+export default upperFirst(name)
