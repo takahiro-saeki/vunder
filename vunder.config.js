@@ -1,7 +1,7 @@
 module.exports = {
   entry: 'src/index.js',
   output: 'dist/app.bundle.min.js',
-  minify: false,
+  minify: true,
   extension: '.js',
   server: {
     root: './dist',
