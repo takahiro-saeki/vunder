@@ -3,8 +3,7 @@
   "version": "0.0.1",
   "author": "takahiro-saeki",
   "devDependencies": {
-    "babel-core": "^6.26.3",
-    "babel-plugin-syntax-function-bind": "^6.13.0",
+    "@babel/parser": "^7.0.0-beta.48",
     "babel-plugin-transform-class-properties": "^6.24.1",
     "babel-plugin-transform-function-bind": "^6.22.0",
     "babel-plugin-transform-react-jsx": "^6.24.1",
@@ -33,7 +32,6 @@
     "vunder": "node lib/index.js ../vunder.config.js"
   },
   "dependencies": {
-    "@babel/core": "^7.0.0-beta.49",
     "lodash": "^4.17.10",
     "react": "^16.4.0",
     "react-dom": "^16.4.0",

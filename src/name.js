@@ -1,5 +1,5 @@
+import { upperCase } from 'lodash';
+
 const name = 'vunder!!';
 
-document.getElementById('app')
-
-export default name
+export default upperCase(name)
